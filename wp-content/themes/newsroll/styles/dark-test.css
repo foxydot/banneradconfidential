@@ -1,0 +1,31 @@
+#serinfo-nav li.current {
+	background-color: none !important }
+ul#serinfo-nav>li,.ei-slider-thumbs li a { background:#333 !important}
+.tab-post,
+.textcenter,
+.item-big,
+.twins-small,
+.post .meta,
+h3#comments-title,
+h3#reply-title,
+.commentlist li.comment,
+#sidebar h2,
+.item-big h2,
+.com_post{ 
+	background:url(../images/line-header.png) bottom repeat-x}
+	
+.fblock{ 
+	background:url(../images/line-header.png) top repeat-x !important;}
+	
+a.mainbutton,#submit,.reply>a,#comments .navigation a,.tagssingle a,.contact-form .submit{
+	background: #333 !important;
+	border:none;
+	}
+
+.searchform input.s{ background:none;}
+	
+.bags, #map iframe, img.aligncenter, img.alignright, img.alignleft, .wp-caption{ border:1px solid #333;}
+
+.social-item img{ opacity:.6;}
+
+#navigation{ background:#bd1931 !important;}

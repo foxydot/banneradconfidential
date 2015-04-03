@@ -1,0 +1,99 @@
+Telegraph Theme
+http://www.wpzoom.com/themes/telegraph
+ 
+CHANGELOG
+---------
+
+V 2.0.10 (26 September, 2012)
+	- fixed a bug with date appearing in WPZOOM: Featured Category widget, even if date disabled from widget options
+	- edited files: /functions/theme/widgets/featured-category.php
+
+V 2.0.9 (18 September, 2012)
+	- fixed twitter bug on homepage
+	- edited files: footer.php, style.css
+
+V 2.0.8 (13 September, 2012)
+	- added social sharing icons to posts
+	- edited files: single.php, style.css
+
+V 2.0.7 (12 September, 2012)
+	- fixed bug with Twitter box on homepage making elements italic
+	- edited files: footer.php, style.css, twitter.php
+
+V 2.0.6 (5 August, 2012)
+	- fixed bug with comments showing up even if disabled from Theme Options page
+	- edited files: page.php, single.php
+
+V 2.0.5 (24 June, 2012)
+	- /functions/theme/widgets/featured-category.php - minor bug fix with date showing up even if disabled in widget options
+
+V 2.0.4 (19 June, 2012)
+	- twitter.php - minor bug fix
+
+V 2.0.3 (6 June, 2012)
+	- fixed bug with featured posts autoplay not working on homepage
+	- edited file: footer.php
+
+V 2.0.2 (10 May, 2012)
+	- fixed bug with Category Exclude and Hide Featured Posts from Theme Options page
+	- new file: loop-index.php
+
+V 2.0 (8 May, 2012)
+	- Theme has been ported to the new WPZOOM Framework
+	- All files have been edited
+	- Folders/files structure has been changed
+
+V 1.2.9 (14 December, 2011)
+	- An update for WP 3.3
+	- Files edited: header.php, style.css
+
+V 1.2.8 (14 November, 2011)
+	- fixed the bug with the invisible post title in the WPZOOM Photo Category widget
+	- edited file: 
+		- style.css
+
+V 1.2.7 (18th September, 2011)
+	- A minor coding fix in single.php regarding the Tags meta
+
+V 1.2.6 (6th August, 2011)
+	- An important security fix: /scripts/timthumb.php has been updated to 2.0
+
+V 1.2.5 (19th July, 2011)
+	- fixed missing localizations in single.php
+
+V 1.2.4 (7th July, 2011)
+	- fixed the [highlight] ... [/highlight] shortcode styling
+	- fixed the homepage featured categories bug
+	- edited file: 
+		- style.css
+
+V 1.2.3 (18th June, 2011)
+	- fixed the WPZOOM: Recent Comments styling problem
+	- updated files: 
+		- /functions/wpzoom-widgets.php
+
+V 1.2.2 (17th June, 2011)
+	- fixed the WPZOOM: Recent News styling problem
+	- updated files: 
+		- /functions/wpzoom-widgets.php
+
+V 1.2.1 (15th April, 2011)
+	- fixed the tabbed widget bug
+	- updated files: 
+		- comments.php
+		- sidebar.php
+		- /functions/wpzoom-widgets.php
+
+V 1.2 (2nd April, 2011)
+	- added 404.php
+	- added a couple of new options in Theme Options
+	- all .php files have been edited, though mostly code has been cleaned and tidied up
+
+V 1.1 (28th February, 2011)
+	- fixed compatibility issue with WP 3.1
+
+V 1.0.2 (21st January, 2011)
+	- fixed some minor bugs with icons
+
+V 1.0 (10th January, 2011)
+	- initial release

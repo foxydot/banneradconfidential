@@ -1,0 +1,421 @@
+/* @center grid
+********************************************************************************************
+********************************************************************************************/
+
+.centerrow {
+width: 100%;
+max-width: 1015px;/* 960px & 33px margin */
+min-width: 755px;
+margin: 0 auto;
+overflow: hidden;
+float:none;
+}
+
+.centeronecol, .centertwocol, .centerthreecol, .centerfourcol {
+margin:0 1.1%;
+float: left;
+min-height: 1px;
+margin-bottom:30px !important;
+}
+
+.centerrow .centeronecol {
+width: 4.93%;
+}
+
+.centerrow .centertwocol {
+width: 13.26%;
+}
+
+.centerrow .centerthreecol {
+width: 22.7%;
+}
+
+.centerrow .centerfourcol {
+width: 29.93%;
+}
+
+
+/* @the 1140px grid
+********************************************************************************************
+********************************************************************************************/
+
+.container {
+padding-left: 20px;
+padding-right: 20px;
+padding-top:20px;
+padding-bottom:20px;
+}
+
+.container-topfix {
+padding-left: 20px;
+padding-right: 20px;
+padding-top:0;
+padding-bottom:20px;
+}
+
+.row {
+width: 100%;
+max-width: 990px;
+min-width: 755px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.rowwide {
+width: 104%;
+max-width: 1020px;
+min-width: 755px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {
+margin-left: 2.8%;
+float: left;
+min-height: 1px;
+}
+
+.row .onecol {
+width: 4.85%;
+}
+
+.row .twocol {
+width: 13.45%;
+}
+
+.row .threecol {
+width:22.9%;
+}
+
+.row .fourcol {
+width: 30.4%;
+}
+
+.row .fivecol {
+width: 39.45%;
+}
+
+.row .sixcol {
+width: 48%;
+}
+
+.row .sevencol {
+width: 56.75%;
+}
+
+.row .eightcol {
+width: 66.8%;
+}
+
+.row .ninecol {
+width: 74.30%;
+}
+
+.row .tencol {
+width: 82.7%;
+}
+
+.row .elevencol {
+width: 91.35%;
+}
+
+.row .twelvecol {
+width: 100%;
+float: left;
+}
+
+.first {
+margin-left: 0px;
+}
+
+img, object, embed {
+max-width: 100%;
+}
+
+
+
+img {
+	height: auto;
+}
+	.flickwrap img{
+	}
+	
+.ei-slider-large li img{
+	width: 100%;
+	max-width:none;
+}
+
+img.ad300 {
+	max-width:300px;
+}
+
+/* Smaller screens */
+
+@media only screen and (max-width: 1023px) {
+
+	body {
+	font-size: 0.8em;
+	line-height: 1.5em;
+	}
+	
+	.padding-fix{ padding-left:20px !important; padding-right:20px !important}
+	
+	#copyright{ width:100%;}
+	
+	#copyright .row{ width:85%; padding:0 20px;}
+	
+	}
+
+
+@media screen and (max-width: 830px) {
+
+	#navigation {
+	height:auto;}
+	ul#social-menu{ margin:0 0 30px 0}
+	
+	.posthead img{ width:55%;}
+	
+}
+
+
+/* Mobile */
+
+
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+	font-size: 16px;
+	-webkit-text-size-adjust: none;
+	}
+	
+	.row,.centerrow, body, .container {
+	width: 100%;
+	min-width: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	
+	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol,
+	.centerrow .centeronecol, .centerrow .centertwocol, .centerrow .centerthreecol, .centerrow .centerfourcol
+	 {
+	width: auto;
+	float: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+
+#sidebar {
+	background:none;
+	padding-top:40px;}
+	
+	
+  /* iPhone landscape & down */
+  #navigation {
+    clear: both;
+	float:left;
+  }
+  #navigation .nav {
+    float: none;
+  }
+  #navigation .nav li {
+    float: none;
+  }
+  #navigation .nav li a {
+    border: none!important;
+	background:none;
+  }
+  
+  a#homes {
+	  display:none;
+  }
+  
+  #navigation .nav li ul {
+    position: relative;
+    border: none!important;
+  }
+  #navigation .nav li ul li {
+    padding-left: 10px;
+  }
+  #navigation .nav li ul a {
+    color: #888888;
+  }
+  #navigation .nav li ul a:hover {
+    text-decoration: underline;
+  }
+  #navigation ul {
+	  margin:15px 0;
+  }
+  .rss {
+    background: url(images/ico-rss.png) no-repeat;
+    display: block;
+    float: right;
+    padding: 0 0 0 10px;
+    width: 20px;
+    height: 21px;
+  }
+  
+ul.medpost li img {
+	display:block;
+	margin:10px auto 20px auto;
+	clear:both;
+	float:none;}
+	
+	.ei-title{
+		bottom:0;
+		padding:0;
+	}
+	
+	
+	.ei-slider-thumbs li a{
+	text-indent: -9000px;}
+
+
+ul.infolio li{
+	text-align:center;}
+	
+.item_blog{
+	text-align:left !important;}
+
+ul#social-menu,ul#social-menu li {
+	float: left; }
+ 
+
+ul#serinfo {
+	position: relative;
+	z-index: 5;
+	float: left;
+	width:92%;
+}
+
+.item-big{ height:auto;}
+
+.secmenu{ padding-left:20px; padding-right:20px;}
+
+ul.secmenu>li{ margin:10px 25px 10px 0;}
+}
+
+
+@media only screen and (max-width: 639px) {
+  #navigation {
+	  width:100%;
+  }
+  
+  h2.flex-caption{ font-size:15px}
+ 
+
+	
+	.item_full{background: none;}
+	
+	.item_full img{max-width:96%;}
+	
+	ul.medpost li img {max-width:96%;}
+	
+	
+	.tmnf-sc-quote.left,
+	.tmnf-sc-quote.right{ width:100%; float:none; margin-left:0; margin-right:0}
+	
+	
+	.contact-form .forms textarea,
+	.contact-form .forms input.txt{ width:100%; float:none; margin-left:0; margin-right:0; padding-left:0; padding-right:0}
+	
+	.contact-form .forms label{ margin-bottom:10px}
+	
+	.contact-form .forms .buttons .submit,
+	.contact-form .forms input#sendCopy{ margin-left:0;}
+
+
+	
+.twins,.twins-small,.twins2col{ width:100%}
+
+.slpost_small {
+	min-height:inherit;
+	height:auto;
+}
+
+	.slpost_small img,.slpost_small iframe {
+		width:100%;
+	height: auto;}
+#content .flickr_badge_image{ height:40px;}
+
+.headad{ display:none;}
+
+
+#tabsmallss li img{ width:30%;}
+
+} 
+
+
+
+@media only screen and (max-width: 519px) {
+	
+.tabbig_small{ width:100% !important;}
+
+ul#tabsmallss{ position:relative; width:108%; margin:20px 5% 0 5%}
+
+#tabsmallss li{ width:29%; float:left; margin-right:3%;}
+
+#tabsmallss li a.sidnav{ min-width:100%;}
+
+#tabsmallss li img{ width:100%;}
+
+} 
+
+
+
+
+@media only screen and (max-width: 319px) {
+
+	
+ul.medpost li img {
+	margin:0 0 20px 0;
+	clear:both;
+	float:none;}
+
+} 
+
+
+
+
+
+
+
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	body {
+		
+	}
+	
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}
+
